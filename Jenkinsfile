@@ -17,11 +17,11 @@ environment{
             }
         }
         
-        stage('clone'){
+        stage('Clone'){
             steps{
                 echo "This is clone Phase"
                 git url:'https://github.com/HimanshuRana08/django-notes-app.git', branch :'main'
-                
+                echo "The cloning is successfull"
             }
         }
         stage('Build'){
