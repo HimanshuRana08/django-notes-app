@@ -24,7 +24,7 @@ environment{
                 
             }
         }
-        stage('build'){
+        stage('Build'){
             steps{
                 echo 'This is build phase'
                 script{
